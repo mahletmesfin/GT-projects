@@ -4,25 +4,6 @@ output: html_document
 date: "2024-08-27"
 ---
 
-
-#### Question 2.1
-# 1.) Describe a situation or problem from your job, everyday life, current events, etc., for which a classification model would be appropriate. List some (up to 5) predictors that you might use.
-# 
-# Problem: You are receiving an excessive amount of emails each day, it is unbearable to look through each one trying to determine which is spam and which is relevant.
-# 
-# Predictors:
-
-# Keywords- spam emails use a lot of similar phrases to get readers attention such as "Congrats!", "Free", "You Won!"
-# 
-# Links or attachments- spam emails contain links/ certain attachments e.g. "Click this link to view your free gift!"
-# 
-# Sender's email: the sender's email address often contains random letters or an easy to spot fake email address.
-# 
-# Overuse of Punctuation marks: In order to grab reader's attention spammer's often excessively use exclamation marks, special characters, question marks, etc.
-# 
-# Subject line: Spam emails often contain punctuation marks instead of text to unlock reader's curiosity on what the message might contain.
-
-#*********************************************************************************************************************************************
 # Question 2.2
 # 1.) Using the support vector machine function ksvm contained in the R package kernlab, find a good classifier for this data. Show the equation of your classifier, and how well it classifies the dara points in the full data set.
 
@@ -267,19 +248,7 @@ for(i in 1:nrow(df2_scale_noNA)) {
   print(paste("k =", k, "Accuracy =", accuracy))
   
   print(paste("Best k =", best_k, "with Accuracy =", best_accuracy))
-#*************************************************************************************************************************  
-  
-# CITATIONS
-# Title: Setting a Working Directory
-# Author: RPubs
-# Date: November 19, 2022
-# Availability: https://rpubs.com/em_/wdInR
 
-# Title: OpenAI
-# Author:ChatGBT
-# Date:August 24, 2024
-# Code version: 4
-# Availability: https://www.openai.com/chatgpt
 
 
   
